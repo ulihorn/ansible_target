@@ -5,6 +5,4 @@ set -eo pipefail
 #rsyslogd
 
 # start SSH daemon
-mkdir /var/run/sshd
-chmod 0755 /var/run/sshd
 /usr/sbin/sshd -D
